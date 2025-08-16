@@ -1,0 +1,20 @@
+# Node / frontend
+node_modules
+.next
+out
+dist
+*.log
+.env
+.env.*
+# Python / backend
+__pycache__/
+*.pyc
+.venv/
+# Hardhat / contracts
+cache/
+artifacts/
+coverage/
+.env.contracts
+# OS
+.DS_Store
+Thumbs.db

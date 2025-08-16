@@ -1,0 +1,16 @@
+name: Bug report
+description: File a bug
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: What happened, what did you expect?
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+  - type: input
+    attributes:
+      label: Environment
+      placeholder: Node, OS, Browser

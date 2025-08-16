@@ -1,0 +1,17 @@
+{
+  "name": "YouFi \u2022 Deploy Pipeline",
+  "nodes": [
+    {
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger"
+    },
+    {
+      "name": "Vercel Deploy",
+      "type": "n8n-nodes-base.httpRequest",
+      "parameters": {
+        "url": "https://api.vercel.com/v13/deployments"
+      }
+    }
+  ],
+  "connections": {}
+}
