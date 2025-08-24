@@ -104,7 +104,7 @@
 
 ## 📈 Roadmap Realista & Cronológico
 
-> **📅 Projeto iniciado:** 3 de agosto de 2024
+> **📅 Projeto iniciado:** 3 de agosto de 2025
 
 ### 🏗️ **Fase 0: Setup & Fundação** (Ago-Dez 2024) ✅ COMPLETO
 ```
@@ -123,7 +123,7 @@ Set-Dez 2025: Core Infrastructure
 └── [x] ✅ Team formation & project planning
 ```
 
-### 🧪 **Fase 1: Testnet & Beta (Jan–Mar 2026) 🎯 CRITICAL
+### **Fase 1: Testnet & Beta (Jan–Mar 2026) 🎯 CRITICAL
 ```
 Jan-Mar 2026: Base Sepolia Beta
 ├── [ ] 🧪 Full deployment on Base Sepolia testnet
@@ -132,51 +132,33 @@ Jan-Mar 2026: Base Sepolia Beta
 ├── [ ] 🧪 Stress testing: ZK proofs + gasless UX
 ├── [ ] 🧪 PIX testnet simulation + USDC mock
 └── [ ] 🧪 UX/UI refinements based on beta feedback
-
-Abr-Jun 2025: Core Features  
-├── [ ] 📋 PIX → USDC integration (webhooks)
-├── [ ] 📋 USDC Pool rewards system (~4.10% APY)
-├── [ ] 📋 SBT minting + reputation logic
-├── [ ] 📋 Anti-Sybil ML patterns
-└── [ ] 📋 PWA mobile-first optimization
 ```
 
-### 🧪 **Fase 2: Testnet & Beta** (Jul-Set 2025) 🎯 CRÍTICO
+### **Fase 2: Mainnet Launch (Apr–Jun 2026) 🎊 GO-LIVE
 ```
-Jul-Set 2025: Base Sepolia Beta
-├── [ ] 🧪 Deploy completo Base Sepolia testnet
-├── [ ] 🧪 Beta fechado: 50-100 usuários selecionados
-├── [ ] 🧪 Auditoria leve smart contracts  
-├── [ ] 🧪 Stress testing: ZK proofs + gasless UX
-├── [ ] 🧪 PIX testnet simulation + USDC mock
-└── [ ] 🧪 UX/UI refinements baseado feedback beta
-```
-
-### 🚀 **Fase 3: Mainnet Launch** (Out-Dez 2025) 🎊 GO-LIVE
-```
-Out-Dez 2025: Base Mainnet Production
-├── [ ] 🎯 Deploy produção Base Mainnet
-├── [ ] 🎯 Launch público: Meta 1K usuários / R$ 500K TVL
+Apr–Jun 2026: Base Mainnet Production
+├── [ ] 🎯 Base Mainnet production deployment
+├── [ ] 🎯 Public launch: Target 1K users / R$ 500K TVL
 ├── [ ] 🎯 Farcaster Mini App integration
-├── [ ] 🎯 Auditoria completa + security review
-├── [ ] 🎯 Discord community: 1000+ members
-└── [ ] 🎯 Partnerships: Base ecosystem players
+├── [ ] 🎯 Full audit + security review
+├── [ ] 🎯 Discord community: 1,000+ members
+└── [ ] 🎯 Partnerships with Base ecosystem players
 ```
 
-### ⚡ **Fase 4: Tração & Escala** (Jan-Jun 2026) 📈 GROWTH
+### **Fase 3: Growth & Scale (Jul–Dec 2026) 📈 GROWTH
 ```
-Jan-Jun 2026: Growth & Advanced Features
+Jul–Dec 2026: Growth & Advanced Features
 ├── [ ] 🚀 Mobile App (React Native companion)
 ├── [ ] 🚀 AI recommendations (OpenAI GPT-4)
 ├── [ ] 🚀 Social features: P2P support + marketplace
 ├── [ ] 🚀 Advanced analytics & BI dashboard
-├── [ ] 🚀 Meta: 10K+ MAU, $10M TVL
+├── [ ] 🚀 Target: 10K+ MAU, $10M TVL
 └── [ ] 🚀 Yield strategies optimization
 ```
 
-### 🌟 **Fase 5: Expansão Estratégica** (Jul-Dez 2026) 🌍 SCALE
+### **Fase 4: Strategic Expansion (2027) 🌍 SCALE
 ```
-Jul-Dez 2026: Scale & Strategic Partnerships
+2027: Scale & Strategic Partnerships
 ├── [ ] 🌟 B2B white-label solutions
 ├── [ ] 🌟 Enterprise partnerships (banks/fintechs)
 ├── [ ] 🌟 Advanced ML anti-fraud systems
@@ -185,11 +167,11 @@ Jul-Dez 2026: Scale & Strategic Partnerships
 └── [ ] 🌟 LATAM expansion strategy
 ```
 
-### 🔮 **Fase 6: Descentralização** (2027+) 🏛️ DAO READY
+### **Fase 5: Decentralization (2028+) 🏛️ DAO READY
 ```
-2027+: Governança & Multi-Chain (quando team pronto)
+2028+: Governance & Multi-Chain (when team ready)
 ├── [ ] 🔮 Multi-chain: Ethereum + Polygon + Wormhole
-├── [ ] 🔮 DAO governance token (maturidade técnica)
+├── [ ] 🔮 DAO governance token (technical maturity)
 ├── [ ] 🔮 Insurance protocols integration
 ├── [ ] 🔮 DeFi yield farming automation
 └── [ ] 🔮 Global expansion beyond LATAM
