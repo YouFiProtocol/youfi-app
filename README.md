@@ -1,444 +1,399 @@
-# YouFi Protocol
+<div align="center">
+  <img src="https://github.com/YouFiProtocol/youfi-app/raw/main/public/logo-hero.png" alt="YouFi Protocol" width="240" height="80"/>
+  
+  # YouFi Protocol 🇧🇷
+  
+  **Transforme disciplina em patrimônio verificável**
+  
+  *Primeira plataforma brasileira que recompensa consistência financeira onchain*
 
-**Transformamos metas financeiras em reputação Web3**
+  ---
 
-[![Build Status](https://github.com/YouFiProtocol/youfi-app/workflows/CI/badge.svg)](https://github.com/YouFiProtocol/youfi-app/actions) [![Test Coverage](https://codecov.io/gh/YouFiProtocol/youfi-app/branch/main/graph/badge.svg)](https://codecov.io/gh/YouFiProtocol/youfi-app) [![Code Quality](https://api.codeclimate.com/v1/badges/youfi-app/maintainability)](https://codeclimate.com/github/YouFiProtocol/youfi-app/maintainability) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+  [![Build Status](https://img.shields.io/github/actions/workflow/status/YouFiProtocol/youfi-app/ci.yml?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YouFiProtocol/youfi-app/actions)
+  [![License](https://img.shields.io/github/license/YouFiProtocol/youfi-app?style=for-the-badge&color=blue)](./LICENSE)
+  [![Version](https://img.shields.io/github/v/release/YouFiProtocol/youfi-app?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YouFiProtocol/youfi-app/releases)
+  [![Stars](https://img.shields.io/github/stars/YouFiProtocol/youfi-app?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YouFiProtocol/youfi-app/stargazers)
 
-[![Base Network](https://img.shields.io/badge/Base-Mainnet-0052FF?logo=ethereum)](https://base.org) [![Solidity](https://img.shields.io/badge/Solidity-0.8.19-363636?logo=solidity)](https://soliditylang.org/) [![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Audited-4E5EE4?logo=openzeppelin)](https://openzeppelin.com/) [![Security Score](https://img.shields.io/snyk/vulnerabilities/github/YouFiProtocol/youfi-app?logo=snyk)](https://snyk.io/test/github/YouFiProtocol/youfi-app)
+  [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
+  [![Base](https://img.shields.io/badge/Base-0052FF?style=for-the-badge&logo=coinbase&logoColor=white)](https://base.org)
+  [![OnchainKit](https://img.shields.io/badge/OnchainKit-1652F0?style=for-the-badge&logo=coinbase&logoColor=white)](https://onchainkit.xyz)
+  [![Self SDK](https://img.shields.io/badge/Self_SDK-000000?style=for-the-badge&logo=shield&logoColor=white)](https://www.self.id/)
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-000000?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://reactjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)](https://typescriptlang.org/) [![Coinbase CDP](https://img.shields.io/badge/Coinbase-CDP-0052FF?logo=coinbase)](https://www.coinbase.com/developer-platform)
+  [🔗 **Live Demo**](https://youfi-app.vercel.app) • [📖 **Docs**](https://docs.youfi.finance) • [💬 **Discord**](https://discord.gg/youfi) • [🐦 **Twitter**](https://twitter.com/YouFiProtocol)
 
-[![Discord](https://img.shields.io/badge/Discord-YouFi%20Builders-5865F2?logo=discord\&logoColor=white)](https://discord.gg/youfi-builders) [![Twitter Follow](https://img.shields.io/twitter/follow/YouFiProtocol?style=social)](https://twitter.com/YouFiProtocol) [![GitHub Stars](https://img.shields.io/github/stars/YouFiProtocol/youfi-app?style=social)](https://github.com/YouFiProtocol/youfi-app/stargazers)
+</div>
 
-***
+---
 
-## Visão Geral
+## ⚡ O que é o YouFi Protocol?
 
-**YouFi Protocol** é uma plataforma brasileira que combina objetivos financeiros inteligentes com tecnologia blockchain, utilizando **Base L2**, **Zero-Knowledge Identity** (Self SDK) e **UX gasless** (ERC-4337) para máxima privacidade e usabilidade.
+**Transformamos disciplina financeira em patrimônio verificável** através da primeira plataforma brasileira que combina:
 
-**Características principais:** Interface mobile-first, pool USDC (\~4,10% a.a.), contratos automáticos e SBT soul-bound para reputação.
+- **🎯 Metas Inteligentes** → Objetivos financeiros gamificados
+- **🏆 SBT Reputation** → Tokens não-transferíveis que provam sua consistência
+- **💰 Pool USDC** → Recompensas de ~4,10% a.a. para disciplinados
+- **🔐 Zero-Knowledge** → Privacy-first com Self SDK (sem KYC)
+- **⚡ Gasless UX** → ERC-4337 + Paymaster na Base L2
 
-### Protocol Features
+### 💡 Como Funciona?
 
-[![Zero Knowledge](https://img.shields.io/badge/ZK-Privacy-2196F3)](./docs/privacy/) [![Soul Bound Tokens](https://img.shields.io/badge/SBT-Achievements-9C27B0)](./docs/tokens/) [![ERC-4337](https://img.shields.io/badge/ERC--4337-Account%20Abstraction-FF6B35)](./docs/aa/) [![Gasless UX](https://img.shields.io/badge/Paymaster-Gasless%20UX-4CAF50)](./docs/paymaster/) [![Anti-Sybil](https://img.shields.io/badge/Anti--Sybil-Rate%20Limiting-FF5722)](./docs/security/) [![PIX Integration](https://img.shields.io/badge/PIX-Integration-FFD700)](./docs/pix/) [![USDC Pool](https://img.shields.io/badge/USDC-Pool%204.10%25-00BCD4)](./docs/yield/) [![Self SDK](https://img.shields.io/badge/Self-ZK%20Identity-673AB7)](https://www.selfid.net/) [![Base L2](https://img.shields.io/badge/Base-L2%20Network-0052FF)](https://base.org/) [![Open Source](https://img.shields.io/badge/Open-Source-green)](./LICENSE)
+1. **📊 Defina suas metas** → Poupança, investimento, pagamento de dívidas
+2. **✅ Prove sua disciplina** → Cumpra objetivos mensalmente via PIX
+3. **🏆 Ganhe SBT Reputation** → Patrimônio verificável cresce automaticamente
+4. **💎 Desbloqueie benefícios** → Melhores rendimentos, acesso VIP, oportunidades
 
-## Arquitetura do Projeto
+---
 
-| Componente                                                              | Tecnologia Stack          | Status                                                             | Descrição                |
-| ----------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------ | ------------------------ |
-| **[YouFi App](https://github.com/YouFiProtocol/youfi-app)**             | Next.js + MiniKit + Wagmi | ![Active](https://img.shields.io/badge/Status-Ativo-green)         | Mini App PWA na Base L2  |
-| **[YouFi Contracts](https://github.com/YouFiProtocol/youfi-contracts)** | Foundry + Solidity        | ![Active](https://img.shields.io/badge/Status-Ativo-green)         | Smart Contracts e testes |
-| **[YouFi Docs](https://github.com/YouFiProtocol/youfi-docs)**           | Docusaurus + MDX          | ![Dev](https://img.shields.io/badge/Status-Desenvolvimento-orange) | Documentação técnica     |
-| **[YouFi Infra](https://github.com/YouFiProtocol/youfi-infra)**         | Docker + N8n + NGINX      | ![Dev](https://img.shields.io/badge/Status-Desenvolvimento-orange) | DevOps e automação       |
+## 🏗 Arquitetura Técnica
 
-## Stack Tecnológico
+<div align="center">
+  <img src="https://github.com/YouFiProtocol/youfi-app/raw/main/docs/assets/architecture.png" alt="YouFi Architecture" width="100%"/>
+</div>
 
-### Frontend & Mobile
+### 📚 Stack Tecnológica
 
-```typescript
-// Core Framework
-Next.js 15+ with App Router
-React 19+ with TypeScript 5.0
-Tailwind CSS 3.4+ (Design System)
-PWA com Service Workers
+| Componente | Tecnologia | Status | Descrição |
+|------------|------------|---------|-----------|
+| **🎨 Frontend** | Next.js 15 + App Router | ✅ Active | Mini App PWA na Base L2 |
+| **⚡ Web3 UI** | OnchainKit + MiniKit | ✅ Active | Componentes Web3 prontos |
+| **🔗 Blockchain** | Base L2 + ERC-4337 | 🚧 Dev | Smart Wallets + Gasless UX |
+| **👛 Identity** | Self SDK (ZK Proofs) | 🚧 Dev | Privacy-first sem KYC |
+| **💰 Payments** | USDC Pool + PIX | 📅 Planned | Rampa BRL → USDC |
+| **📜 Contracts** | Foundry + Solidity | 🚧 Dev | SBT + Registry + Treasury |
 
-// Web3 & Blockchain  
-Wagmi v2 + Viem (Ethereum interactions)
-Coinbase MiniKit SDK + OnchainKit (Base L2)
-Self SDK (Zero-Knowledge Identity)
-ERC-4337 Smart Accounts + Paymaster
-WalletConnect v2 (Universal wallet)
+### 🎯 Core Features
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/ZK_Privacy-✅-green?style=flat-square" alt="ZK Privacy"/>
+      <br><strong>ZK Privacy</strong>
+      <br><small>Self SDK proofs sem PII</small>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Gasless_UX-🚧-orange?style=flat-square" alt="Gasless UX"/>
+      <br><strong>Gasless UX</strong>
+      <br><small>ERC-4337 + Paymaster</small>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/SBT_Reputation-📅-blue?style=flat-square" alt="SBT Reputation"/>
+      <br><strong>SBT Reputation</strong>
+      <br><small>Soul-bound tokens</small>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/USDC_Pool-📅-blue?style=flat-square" alt="USDC Pool"/>
+      <br><strong>USDC Pool</strong>
+      <br><small>~4,10% a.a. rewards</small>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/PIX_Integration-📅-blue?style=flat-square" alt="PIX Integration"/>
+      <br><strong>PIX → USDC</strong>
+      <br><small>Brazilian payment rails</small>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Anti_Sybil-📅-blue?style=flat-square" alt="Anti Sybil"/>
+      <br><strong>Anti-Sybil</strong>
+      <br><small>ML pattern detection</small>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📈 Roadmap Realista & Cronológico
+
+> **📅 Projeto iniciado:** 3 de agosto de 2024
+
+### 🏗️ **Fase 0: Setup & Fundação** (Ago-Dez 2024) ✅ COMPLETO
+```
+Ago-Set 2024: Project Genesis 
+├── [x] ✅ Definição arquitetura técnica
+├── [x] ✅ Setup inicial: Next.js + TypeScript + Tailwind
+├── [x] ✅ Integração básica OnchainKit
+├── [x] ✅ Landing page inicial
+└── [x] ✅ Estrutura de repositórios e docs
+
+Out-Dez 2024: Base Infrastructure
+├── [x] ✅ Base L2 network setup  
+├── [x] ✅ Self SDK research & integration planning
+├── [x] ✅ Smart contracts architecture design
+├── [x] ✅ PIX integration research & partnerships
+└── [x] ✅ Team formation & project planning
 ```
 
-### Blockchain & Infrastructure
+### 🔧 **Fase 1: Core Development** (Jan-Jun 2025) 🚧 EM PROGRESSO
+```
+Jan-Mar 2025: Smart Infrastructure
+├── [ ] 🚧 Self SDK ZK integration (uniqueHuman + age≥18)  
+├── [ ] 🚧 Smart Contracts: SBT + Registry + Treasury
+├── [ ] 🚧 ERC-4337 Smart Wallets + Paymaster
+├── [ ] 🚧 Foundry testing suite completo
+└── [ ] 🚧 Base Sepolia deployment + testing
 
-```solidity
-// Primary Network
-Base L2 (Coinbase Layer 2)
-ERC-4337 Account Abstraction + Paymaster gasless
-USDC Pool de Recompensas (~4,10% a.a.)
-Self ZK Identity verification
-
-// Smart Contracts Core
-YouFiSBT: Soul-bound tokens para metas
-YouFiRegistry: Políticas ZK + score verificado
-YouFiTreasury: Pool USDC + rendimentos
-YouFiPaymaster: Sponsor gas (onboarding + 1º depósito)
-Foundry para testes + deploy + auditoria
+Abr-Jun 2025: Core Features  
+├── [ ] 📋 PIX → USDC integration (webhooks)
+├── [ ] 📋 USDC Pool rewards system (~4.10% APY)
+├── [ ] 📋 SBT minting + reputation logic
+├── [ ] 📋 Anti-Sybil ML patterns
+└── [ ] 📋 PWA mobile-first optimization
 ```
 
-### Backend & Integrações
-
-```python
-# APIs & Services
-FastAPI com Python 3.11+
-PostgreSQL 15+ (banco principal)
-Redis para cache e sessões
-Celery + RabbitMQ (async tasks)
-
-# IA & Machine Learning + Identity
-Self SDK para ZK proofs (uniqueHuman + age≥18)
-OpenAI GPT-4 para recomendações financeiras
-Scikit-learn para análise preditiva comportamental  
-TensorFlow para detecção anti-Sybil patterns
-APIs brasileiras: PIX webhooks + Open Finance
+### 🧪 **Fase 2: Testnet & Beta** (Jul-Set 2025) 🎯 CRÍTICO
+```
+Jul-Set 2025: Base Sepolia Beta
+├── [ ] 🧪 Deploy completo Base Sepolia testnet
+├── [ ] 🧪 Beta fechado: 50-100 usuários selecionados
+├── [ ] 🧪 Auditoria leve smart contracts  
+├── [ ] 🧪 Stress testing: ZK proofs + gasless UX
+├── [ ] 🧪 PIX testnet simulation + USDC mock
+└── [ ] 🧪 UX/UI refinements baseado feedback beta
 ```
 
-## Principais Funcionalidades
-
-### Aplicativo YouFi Mobile (PWA)
-
-* **Identidade Privada**: Self SDK para ZK proofs (unicidade + idade) sem KYC
-* **Metas Gamificadas**: SBT soul-bound + sistema anti-Sybil com rate-limits
-* **Pool de Recompensas**: \~4,10% a.a. em USDC (estimado, pode variar)
-* **UX Gasless**: ERC-4337 Paymaster sponsors gas para onboarding
-* **Marketplace Social**: Apoio colaborativo com provas ZK + selective disclosure
-* **PIX Integration**: Depósito direto PIX → USDC com webhooks automáticos
-
-### Dashboard Empresarial (Web)
-
-* **Gestão Avançada**: Portfolio multi-assets com otimização DeFi
-* **Automação Smart**: Contratos inteligentes para metas e recompensas
-* **Cross-Chain**: Integração Ethereum, Polygon, Arbitrum
-* **Business Intelligence**: Insights financeiros com IA preditiva
-* **Marketplace**: Empréstimos P2P e investimentos colaborativos
-
-### Infraestrutura Zero-Knowledge + Base L2
-
-* **ZK Identity**: Self SDK para provas sem revelar dados pessoais (PII)
-* **Taxa Ultra-baixa**: < $0,01 por transação (Paymaster sponsors key actions)
-* **Anti-Sybil**: requireUniqueHuman() + supportCapPerHuman() on-chain
-* **Smart Verification**: Verifier contracts validam ZK proofs automaticamente
-* **USDC Treasury**: Pool integrada ao ecossistema Base/Coinbase (\~4,10% a.a.)
-* **Selective Disclosure**: Apenas atributos booleanos chegam aos contratos
-
-## Métricas de Impacto
-
-```yaml
-# Resultados Beta Hedera (Migrados para Base)
-Apoio Total: R$ 127.000+ (em migração para USDC)
-Taxa de Sucesso: 89% das metas concluídas
-SBTs Emitidos: 1.247 certificações soul-bound
-Usuários Verificados: 500+ com Self ZK identity
-Economia Média: R$ 340/mês por usuário
-
-# Projeções Base L2 (2025)
-Meta Launch: 1.000 usuários / R$ 500k TVL (1º mês)
-Meta Scale: 10.000+ usuários ativos mensais
-TVL Target: $10M+ em pool USDC
-Yield Pool: ~4,10% a.a. (pode variar)
-Mercado Alvo: 54M+ jovens adultos brasileiros
+### 🚀 **Fase 3: Mainnet Launch** (Out-Dez 2025) 🎊 GO-LIVE
+```
+Out-Dez 2025: Base Mainnet Production
+├── [ ] 🎯 Deploy produção Base Mainnet
+├── [ ] 🎯 Launch público: Meta 1K usuários / R$ 500K TVL
+├── [ ] 🎯 Farcaster Mini App integration
+├── [ ] 🎯 Auditoria completa + security review
+├── [ ] 🎯 Discord community: 1000+ members
+└── [ ] 🎯 Partnerships: Base ecosystem players
 ```
 
-## Roadmap & Milestones
-
-### **S1-S2 (8 semanas)** - Fundamentos Base + ZK 🔄 **EM PROGRESSO**
-* [x] Migração Hedera → Base L2 (chainId Base mainnet/Sepolia)
-* [ ] Self SDK integration (ZK unicidade + idade≥18)
-* [ ] ERC-4337 AA + Paymaster (gasless onboarding + 1º depósito)
-* [ ] YouFi Contracts: SBT + Registry + Treasury + Paymaster
-* [ ] PIX → USDC integration com webhooks
-
-### **S3-S4 (8 semanas)** - Social + Beta Launch 📋 **PLANEJADO**
-* [ ] Pool USDC recompensas (\~4,10% a.a.) + dashboard ganhos
-* [ ] Marketplace social: metas públicas + apoio ZK rate-limited
-* [ ] Frames (Farcaster) para criar/celebrar metas
-* [ ] Beta fechado: 100-300 usuários + auditoria leve
-* [ ] Telemetria + UX adjustments
-
-### **Go-Live (Q2 2025)** - Public Launch 🎯 **ESTRATÉGICO**
-* [ ] Base App destaque + campanha influenciadores
-* [ ] Meta: 1k usuários / R$ 500k TVL no 1º mês
-* [ ] KPIs: MAU, taxa conclusão, aporte recorrente, % ações Self-verified
-* [ ] Auditoria completa contratos + security review
-* [ ] Expansão orgânica: Base ecosystem partnerships
-
-### **Scale Phase (Q3-Q4 2025)** - Growth & Revenue 🚀 **FUTURO**
-* [ ] Cross-chain bridges (Ethereum, Polygon, Arbitrum)
-* [ ] IA avançada: planejamento preditivo + anti-Sybil patterns
-* [ ] Token governance + revenue sharing para holders
-* [ ] B2B white-label solutions para fintechs
-* [ ] Expansão LATAM + parcerias bancos tradicionais
-
-## Arquitetura Técnica Avançada
-
-### **Fluxos Zero-Knowledge Critical**
-
-#### **Criar Meta com Verificação ZK**
-
-```typescript
-// 1. Cliente gera prova ZK (Self SDK)  
-const proof = await Self.prove({ 
-  uniqueHuman: true, 
-  over18: true 
-});
-
-// 2. Smart contract valida prova on-chain
-await writeContract({
-  address: YOUFI_REGISTRY,
-  abi: RegistryABI,
-  functionName: "verifyAndRegister",
-  args: [proof], // Apenas atributos booleanos, zero PII
-});
-
-// 3. Mint SBT soul-bound para meta (gasless via Paymaster)
-await sponsoredCall({
-  target: YOUFI_SBT,
-  data: encodeFunctionData("mintGoal", [goalData]),
-});
+### ⚡ **Fase 4: Tração & Escala** (Jan-Jun 2026) 📈 GROWTH
+```
+Jan-Jun 2026: Growth & Advanced Features
+├── [ ] 🚀 Mobile App (React Native companion)
+├── [ ] 🚀 AI recommendations (OpenAI GPT-4)
+├── [ ] 🚀 Social features: P2P support + marketplace
+├── [ ] 🚀 Advanced analytics & BI dashboard
+├── [ ] 🚀 Meta: 10K+ MAU, $10M TVL
+└── [ ] 🚀 Yield strategies optimization
 ```
 
-#### **Apoio Social com Rate-Limiting Anti-Sybil**
-
-```solidity
-// YouFiRegistry.sol - Políticas ZK on-chain
-function requireUniqueHuman(address user) external view {
-    require(isVerified[user].uniqueHuman, "Sybil detected");
-}
-
-function supportCapPerHuman(address supporter, uint256 period) external view {
-    require(
-        supportCount[supporter][period] < MAX_SUPPORTS_PER_HUMAN,
-        "Support cap exceeded"
-    );
-}
-
-// Selective disclosure: apenas booleanos chegam ao contrato
-struct VerificationStatus {
-    bool uniqueHuman;    // ZK proof confirmed
-    bool over18;         // Age verification  
-    uint256 timestamp;   // Verification time
-    // ZERO PII stored on-chain
-}
+### 🌟 **Fase 5: Expansão Estratégica** (Jul-Dez 2026) 🌍 SCALE
+```
+Jul-Dez 2026: Scale & Strategic Partnerships
+├── [ ] 🌟 B2B white-label solutions
+├── [ ] 🌟 Enterprise partnerships (banks/fintechs)
+├── [ ] 🌟 Advanced ML anti-fraud systems
+├── [ ] 🌟 Cross-chain bridges prep (Ethereum/Polygon)
+├── [ ] 🌟 Token economics research
+└── [ ] 🌟 LATAM expansion strategy
 ```
 
-### 💰 **Pool USDC de Recompensas (\~4,10% a.a.)**
-
-```typescript
-// YouFiTreasury.sol - Integração com Base/Coinbase ecosystem
-contract YouFiTreasury {
-    IERC20 public constant USDC = IERC20(0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913);
-    
-    // Depósito PIX → USDC com webhook
-    function depositFromPIX(address user, uint256 usdcAmount, bytes32 pixTxId) 
-        external onlyAuthorized 
-    {
-        USDC.safeTransfer(user, usdcAmount);
-        emit PIXDeposit(user, usdcAmount, pixTxId);
-        
-        // Auto-stake na pool de recompensas
-        _stakeInRewardPool(user, usdcAmount);
-    }
-    
-    // Rendimento estimado ~4,10% a.a. (pode variar)
-    function calculateEstimatedRewards(uint256 principal, uint256 days) 
-        external pure returns (uint256) 
-    {
-        return principal * 410 * days / (10000 * 365); // ~4.10% APY
-    }
-}
+### 🔮 **Fase 6: Descentralização** (2027+) 🏛️ DAO READY
+```
+2027+: Governança & Multi-Chain (quando team pronto)
+├── [ ] 🔮 Multi-chain: Ethereum + Polygon + Wormhole
+├── [ ] 🔮 DAO governance token (maturidade técnica)
+├── [ ] 🔮 Insurance protocols integration
+├── [ ] 🔮 DeFi yield farming automation
+└── [ ] 🔮 Global expansion beyond LATAM
 ```
 
-## Setup de Desenvolvimento
+---
 
-### Pré-requisitos
+## ⚡ Quick Start
 
 ```bash
-Node.js 18+ (recomendamos usar nvm)
-Git 2.40+
-Docker & Docker Compose
-Carteira MetaMask ou Coinbase Wallet
-```
-
-### Configuração Local
-
-```bash
-# Clone do repositório
-git clone https://github.com/YouFiProtocol/youfi-app
+# 1️⃣ Clone & Setup
+git clone https://github.com/YouFiProtocol/youfi-app.git
 cd youfi-app
 
-# Configuração de ambiente
+# 2️⃣ Install dependencies (Node 18+ required)
+npm install
+
+# 3️⃣ Configure environment
 cp .env.example .env.local
-# Configure Base Network, Self SDK, PIX webhooks, USDC pool
+# ✏️ Edit .env.local with your API keys
 
-# Instalação de dependências
-npm install && pip install -r requirements.txt
-
-# Desenvolvimento local
-npm run dev          # Frontend (Next.js + Self SDK)
-forge test           # Smart contracts testing
-npm run contracts:deploy # Deploy Base Sepolia
-python manage.py runserver # Backend APIs (PIX + webhooks)
-docker-compose up    # Full stack + PostgreSQL + Redis
+# 4️⃣ Start development server
+npm run dev
 ```
 
-### Variáveis de Ambiente Essenciais
+🎉 **Ready!** Open [http://localhost:3000](http://localhost:3000)
 
-```env
-# Base Network + Self SDK
+<details>
+<summary>📋 <strong>Environment Variables Required</strong></summary>
+
+```bash
+# 🔑 Coinbase Developer Platform
+NEXT_PUBLIC_ONCHAINKIT_API_KEY=your_cdp_api_key
+
+# 🌐 Base Network
 NEXT_PUBLIC_BASE_RPC_URL=https://mainnet.base.org
 NEXT_PUBLIC_BASE_SEPOLIA_RPC=https://sepolia.base.org
+
+# 🔐 Self SDK (Zero-Knowledge)
 SELF_SDK_CLIENT_ID=your_self_client_id
 SELF_SDK_SECRET=your_self_secret
 
-# Smart Contracts (Base)
+# 💰 Smart Contracts (Base)
 YOUFI_SBT_ADDRESS=0x...
 YOUFI_REGISTRY_ADDRESS=0x...
 YOUFI_TREASURY_ADDRESS=0x...
 YOUFI_PAYMASTER_ADDRESS=0x...
 
-# USDC Pool & PIX Integration
-USDC_BASE_ADDRESS=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+# 💳 PIX Integration
 PIX_WEBHOOK_URL=https://youfi.finance/pix/webhook
 PIX_PROVIDER_API_KEY=your_pix_key
 
-# Database & Cache
-DATABASE_URL=postgresql://user:pass@localhost:5432/youfi
-REDIS_URL=redis://localhost:6379
+# 🏦 USDC Pool
+USDC_BASE_ADDRESS=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+```
+</details>
 
-# APIs & ML
-OPENAI_API_KEY=your_openai_key
-COINBASE_CDP_API_KEY=your_cdp_key
+---
+
+## 📊 Métricas & KPIs por Fase
+
+### 📈 **Timeline de Progresso Real**
+
+| Período | Milestone | Status | Descrição |
+|---------|-----------|--------|-----------|
+| **03/08/2025** | 🎬 **Project Genesis** | ✅ Completo | Início oficial do YouFi Protocol |
+| **03-23/08/2025** | 🏗️ **Foundation Setup** | ✅ Completo | Arquitetura + Next.js + Landing (20 dias) |
+| **24/08-30/09/2025** | ⚡ **Core Infrastructure** | 🚧 Em Progresso | Smart Contracts + ZK + Base (37 dias) |
+| **Out-Dez/2025** | 🔧 **Core Development** | 📋 Planejado | PIX integration + USDC pool |
+| **Jan-Mar/2026** | 🧪 **Testnet Beta** | 🎯 Meta | 50-100 beta users |
+| **Abr-Jun/2026** | 🚀 **Mainnet Launch** | 🎊 Objetivo | 1K users / $500K TVL |
+
+### 🎯 **KPIs por Fase**
+
+#### 🏗️ **Fase 1 - Atual** (03-30 Ago 2025) 🚧 EM PROGRESSO
+**Progresso até 23/08/2025 (20 dias completados):**
+- **📚 Documentation**: ✅ 100% arquitetura documentada
+- **⚡ Tech Stack**: ✅ Next.js + OnchainKit + Base setup
+- **🎨 Landing Page**: ✅ Design + copy profissional  
+- **👥 Team**: ✅ Core team alinhado
+- **📋 Planning**: ✅ Roadmap completo e cronograma
+
+**Metas próximos 37 dias (24 Ago - 30 Set 2025):**
+- **🔐 ZK Integration**: Self SDK + privacy proofs
+- **📜 Smart Contracts**: SBT + Registry + Treasury deployed Sepolia
+- **💳 PIX Research**: BRL → USDC integration planning
+- **⚡ Gasless Setup**: ERC-4337 + Paymaster configuration
+- **🧪 Test Foundation**: Foundry testing framework
+#### 🔧 **Fase 2 Metas** (Out-Dez 2025) 📋 PLANEJADO
+- **💳 PIX → USDC**: Webhook integration funcional
+- **💰 USDC Pool**: Rewards system ~4.10% APY deployed
+- **🏆 SBT Logic**: Reputation minting + scoring algorithm
+- **🧪 Test Coverage**: 95%+ smart contract coverage
+- **🤖 Anti-Sybil**: ML pattern detection inicial
+
+#### 🧪 **Fase 3 Metas** (Jan-Mar 2026) 🎯 CRÍTICO
+- **👥 Beta Users**: 50-100 usuários selecionados criteriosamente
+- **📊 Success Rate**: Manter 89%+ das metas concluídas  
+- **🔐 ZK Adoption**: 95%+ usuários com Self verification
+- **⚡ Gasless UX**: 100% onboarding sponsored via Paymaster
+- **🐛 Bug Rate**: < 1% critical issues, 0 security vulnerabilities
+
+#### 🚀 **Fase 4 Metas** (Abr-Jun 2026) 🎊 LANÇAMENTO
+- **👥 MAU**: 1.000 usuários ativos mensais
+- **💰 TVL**: $500K em USDC pool 
+- **🏆 SBT Issued**: 1.000+ reputation tokens
+- **💎 Retention**: 70% (30d), 50% (60d), 30% (90d)
+- **🌐 Community**: 1.000+ Discord members ativos
+
+#### ⚡ **Fase 5 Metas** (Jul-Dez 2026) 📈 CRESCIMENTO
+- **👥 MAU**: 10.000+ usuários ativos mensais
+- **💰 TVL**: $10M+ em USDC pool
+- **🏆 Success Rate**: Manter 85%+ conclusão metas
+- **💸 Avg. Savings**: $340/month per user
+- **🤝 Partnerships**: 5+ Base ecosystem integrations
+
+#### 🌟 **Fase 6+ Metas** (2027+) 🌍 EXPANSÃO
+- **🏢 B2B Clients**: 3+ enterprise partnerships
+- **🌎 LATAM**: Expansion para México + Argentina
+- **🤖 AI Accuracy**: 95%+ recommendation success
+- **💼 White-label**: 2+ fintech integrations
+- **🏛️ DAO Ready**: Governança descentralizada (quando team pronto)
+
+---
+
+## 🤝 Contributing
+
+We ❤️ contributions! Veja nosso [Contributing Guide](./CONTRIBUTING.md)
+
+### 🎯 **Priority Areas**
+- **🔐 Zero-Knowledge**: Self SDK integration, ZK proofs
+- **⛓️ Smart Contracts**: Solidity, Foundry, ERC-4337  
+- **🎨 Frontend**: React, Next.js, mobile-first UX
+- **💰 DeFi Integration**: USDC pools, Base ecosystem
+- **🤖 Anti-Sybil ML**: Pattern detection, fraud prevention
+- **💳 PIX Integration**: Brazilian payment webhooks
+
+### 📝 **Commit Convention**
+```
+feat: ✨ New features
+fix: 🐛 Bug fixes  
+docs: 📚 Documentation
+style: 💄 Code formatting
+refactor: ♻️ Code refactoring
+test: 🧪 Tests
+chore: 🔧 Maintenance
 ```
 
-## Contribuindo para o Projeto
+---
 
-### Como Contribuir
+## 📞 Comunidade & Contato
 
-1. **Fork** o repositório
-2. **Clone** sua versão: `git clone https://github.com/seu-usuario/youfi-app`
-3. **Crie uma branch**: `git checkout -b feature/nova-funcionalidade`
-4. **Desenvolva** seguindo nosso [guia de estilo](./CONTRIBUTING.md)
-5. **Teste** suas mudanças: `npm run test`
-6. **Commit** com mensagens claras: `git commit -m "feat: adiciona funcionalidade X"`
-7. **Push** para sua branch: `git push origin feature/nova-funcionalidade`
-8. **Abra um PR** detalhando suas mudanças
+<div align="center">
 
-### Áreas de Contribuição
+[![Discord](https://img.shields.io/discord/1234567890?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/youfi)
+[![Twitter](https://img.shields.io/twitter/follow/YouFiProtocol?style=for-the-badge&logo=twitter&logoColor=white&label=Follow&color=1DA1F2)](https://twitter.com/YouFiProtocol)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/youfiprotocol)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/youfiprotocol)
 
-* 🔐 **Zero-Knowledge**: Self SDK integration, ZK proofs, privacy
-* ⛓️ **Smart Contracts**: Solidity, Foundry, ERC-4337, auditoria
-* 🎨 **Frontend/UX**: React, Next.js, Tailwind, PWA mobile-first
-* 💰 **DeFi Integration**: USDC pools, yield farming, Base ecosystem
-* 🤖 **Anti-Sybil ML**: Detecção patterns, rate-limiting, fraud prevention
-* 💳 **PIX Integration**: Webhooks, conciliação, fiat onramps
-* 📚 **Documentação**: ZK flows, contract specs, API references
+</div>
 
-## 🌐 Links Oficiais
+### 📧 **Contato Profissional**
+- **💼 Partnerships**: partnerships@youfi.finance
+- **🛠️ Tech Support**: support@youfi.finance
+- **📰 Press**: press@youfi.finance
+- **💰 Investors**: investors@youfi.finance
 
-| Plataforma        | Link                                             | Descrição                   |
-| ----------------- | ------------------------------------------------ | --------------------------- |
-| **Website**       | [youfi.finance](https://youfi.finance)           | Site oficial e landing page |
-| **App Web**       | [app.youfi.finance](https://app.youfi.finance)   | Aplicativo principal (PWA)  |
-| **Documentação**  | [docs.youfi.finance](https://docs.youfi.finance) | Docs técnicas e tutoriais   |
-| **API Reference** | [api.youfi.finance](https://api.youfi.finance)   | Documentação das APIs       |
+---
 
-### 📱 Redes Sociais & Comunidade
+## 🛡️ Segurança & Compliance
 
-[![Twitter](https://img.shields.io/badge/Twitter-@YouFiProtocol-1DA1F2?style=flat\&logo=twitter)](https://x.com/youfiprotocol) [![LinkedIn](https://img.shields.io/badge/LinkedIn-YouFi%20Protocol-0A66C2?style=flat\&logo=linkedin)](https://linkedin.com/company/youfi-protocol) [![Discord](https://img.shields.io/badge/Discord-YouFi%20Builders-5865F2?style=flat\&logo=discord)](https://discord.gg/youfi-builders) [![Farcaster](https://img.shields.io/badge/Farcaster-@youfi-8A2BE2?style=flat\&logo=farcaster)](https://warpcast.com/youfi) [![Telegram](https://img.shields.io/badge/Telegram-YouFi%20Brasil-26A5E4?style=flat\&logo=telegram)](https://t.me/youfibrasil)
+### 🔒 **Security-First Architecture**
+- ✅ **LGPD Compliant**: Zero PII storage com Self SDK
+- ✅ **Smart Contract Audits**: Foundry formal verification  
+- ✅ **Bug Bounty**: Até $50.000 para vulnerabilidades críticas
+- ✅ **Responsible Disclosure**: security@youfi.finance
+- ✅ **Real-time Monitoring**: On-chain analytics + anomaly detection
 
-## 📊 KPIs & Métricas de Sucesso
+### 🏛️ **Regulatory Compliance**
+- ✅ **Banco Central**: Fintech registrada + PIX compliance
+- ✅ **Base/Coinbase**: Ecosystem compliance standards
+- ✅ **Anti-Sybil**: Rate-limiting + ZK uniqueness proofs
+- ✅ **Privacy-First**: Selective disclosure only boolean attributes
 
-### 🎯 **KPIs Principais (Base Launch)**
+---
 
-```yaml
-# Adoção & Engagement  
-MAU (Monthly Active Users): Meta 1k → 10k
-Metas Criadas/Usuário: Média 2,3 metas ativas
-% Metas Públicas: 34% escolhem marketplace social
-Taxa de Retenção: 30/60/90 dias trackado
+## 📄 License
 
-# Saúde Financeira
-TVL em USDC: Meta R$ 500k → $10M 
-Taxa de Conclusão: Manter 89%+ sucesso
-Aporte Recorrente: R$ 340/mês média por usuário
-Pool Yield: ~4,10% a.a. (comunicar como estimativa)
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-# Confiança & Segurança  
-% Ações Self-Verified: Meta 95%+ com ZK proofs
-Tentativas Sybil Bloqueadas: Rate-limit effectiveness  
-Disputas Resolvidas: < 2% do volume total
-Tempo Médio Resolução: < 24h para issues críticos
+---
 
-# Impacto Social
-Apoios P2P: Colaboração entre usuários trackada
-Compartilhamentos: Viral coefficient no social
-Economia Gerada: R$ total poupado via platform
-NPS Score: Net Promoter Score > 70
-```
+<div align="center">
+  
+  ## 🚀 **Transforme sua disciplina em patrimônio verificável!**
+  
+  **[⭐ Star this repo](https://github.com/YouFiProtocol/youfi-app/stargazers)** • **[🍴 Fork it](https://github.com/YouFiProtocol/youfi-app/fork)** • **[💬 Join Discord](https://discord.gg/youfi)**
+  
+  ---
+  
+  **Built with ❤️ in Brazil 🇧🇷**
+  
+  *A primeira plataforma brasileira que recompensa consistência financeira onchain*
+  
+  <sub>Made in 🇧🇷 • Deployed on Base L2 • Powered by OnchainKit & Self SDK</sub>
 
-### 🔍 **Analytics & Business Intelligence**
-
-* **Behavioral Tracking**: Heatmaps de UX, drop-off points, feature adoption
-* **Financial Flow Analysis**: PIX→USDC conversion rates, pool performance metrics
-* **ZK Privacy Metrics**: Self verification success rates, selective disclosure usage
-* **Anti-Sybil Effectiveness**: Pattern detection accuracy, false positive rates
-* **Social Graph Analytics**: Network effects, viral mechanics, community health
-
-## 💼 Parcerias & Investimentos
-
-### Para Investidores Estratégicos
-
-* 💰 **Investimento Série A**: $5M (Q3 2025)
-* 🪙 **Token Pré-venda**: Token de utilidade com governança
-* 📊 **Revenue Share**: Distribuição de taxas da plataforma
-* 🎯 **Board Participation**: Orientação estratégica
-
-### Para Instituições Financeiras
-
-* 🏷️ **Licenciamento White-Label**: Customização completa
-* 🔗 **Integração API**: Serviços financeiros plug-and-play
-* 📈 **Parceria de Dados**: Insights anonimizados para produtos
-* 🚀 **Co-Marketing**: Aquisição conjunta de clientes
-
-### Para Parceiros Tecnológicos
-
-* 🤝 **Parcerias de Integração**: Wallets, protocolos DeFi
-* 🌍 **Open Source**: Desenvolvimento orientado pela comunidade
-* 🔬 **Colaboração em Pesquisa**: Instituições acadêmicas
-* 📖 **Programa de Desenvolvedores**: SDKs e ferramentas
-
-## 📞 Contato Profissional
-
-### Comunicações Corporativas
-
-* 📧 **Geral**: <team@youfi.finance>
-* 🤝 **Parcerias**: <partnerships@youfi.finance>
-* 🛠️ **Suporte Técnico**: <support@youfi.finance>
-* 📰 **Imprensa**: <press@youfi.finance>
-* 💼 **Investidores**: <investors@youfi.finance>
-
-### Desenvolvedores & Comunidade
-
-* 💻 **GitHub**: [@YouFiProtocol](https://github.com/YouFiProtocol)
-* 💬 **Discord**: [Comunidade Builders](https://discord.gg/youfi-builders)
-* 📚 **Stack Overflow**: Tag `youfi-protocol`
-* 🐛 **Bug Reports**: [GitHub Issues](https://github.com/YouFiProtocol/youfi-app/issues)
-
-## 📄 Licença & Legal
-
-Este projeto está licenciado sob a **Licença MIT** - veja o arquivo [LICENSE](LICENSE) para detalhes completos.
-
-### Compliance & Privacy-First Architecture
-
-* ✅ **LGPD + ZK Privacy**: Zero PII storage com Self SDK selective disclosure
-* 🏛️ **Banco Central**: Fintech registrada + PIX integration compliance
-* 🔐 **Smart Contract Audits**: Foundry formal verification + external review
-* **USDC Treasury**: Compliance com regulação Base/Coinbase ecosystem
-* 🚫 **Anti-Sybil**: Rate-limiting policies + ZK uniqueness proofs on-chain
-
-### Segurança & Transparência
-
-* 🛡️ **Security-First**: [security.youfi.finance](https://security.youfi.finance) - public audits
-* 💰 **Bug Bounty Program**: Até $50.000 para vulnerabilidades críticas
-* 🔍 **Responsible Disclosure**: <security@youfi.finance> com SLA 24h response
-* 📂 **Open Source Security**: [github.com/YouFiProtocol/security-audits](https://github.com/YouFiProtocol/security-audits)
-* 📊 **Real-time Monitoring**: On-chain analytics + anomaly detection
-
-***
-
-**Construído no Brasil 🇧🇷**
-
-*YouFi Protocol - Democratizando a Liberdade Financeira com Inovação Blockchain*
-
-[![Base L2](https://img.shields.io/badge/Built%20on-Base-0052FF?style=for-the-badge\&logo=ethereum\&logoColor=white)](https://base.org/) [![LGPD Compliant](https://img.shields.io/badge/LGPD-Compliant-28a745?style=for-the-badge\&logo=shield\&logoColor=white)](https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd) [![Open Source](https://img.shields.io/badge/Open-Source-blue?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/YouFiProtocol)
+</div>
