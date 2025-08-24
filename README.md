@@ -106,7 +106,7 @@
 
 > **📅 Projeto iniciado:** 3 de agosto de 2025
 
-###  Fase 0: Setup & Fundação (Ago-Dez 2024) ✅ COMPLETO
+###  Fase 0: Setup & Fundação (Ago-Dez 2024) 💻 EM DESENVOLVIMENTO
 ```
 Ago-Set 2025: Project Genesis 
 ├── [x] ✅ Definição arquitetura técnica
@@ -115,17 +115,17 @@ Ago-Set 2025: Project Genesis
 ├── [x] ✅ Landing page inicial
 └── [x] ✅ Estrutura de repositórios e docs
 
-Set-Dez 2025: Core Infrastructure
-├── [x] ✅ Base L2 network setup  
-├── [x] ✅ Self SDK research & integration planning
-├── [x] ✅ Smart contracts architecture design
-├── [x] ✅ PIX integration research & partnerships
-└── [x] ✅ Team formation & project planning
+Set-Oct 2025: Core Infrastructure FASE ATUAL
+├── [ ] ✅ Base L2 network setup  
+├── [ ] ✅ Self SDK research & integration planning
+├── [ ] ✅ Smart contracts architecture design
+├── [ ] ✅ PIX integration research & partnerships
+└── [ ] ✅ Team formation & project planning
 ```
 
-###  Fase 1: Testnet & Beta (Jan–Mar 2026) 🎯 CRITICAL
+###  Fase 1: Testnet & Beta (Oct-Dec 2025) 🎯 CRITICAL
 ```
-Jan-Mar 2026: Base Sepolia Beta
+Oct-Dec 2025: Base Sepolia Beta
 ├── [ ] 🧪 Full deployment on Base Sepolia testnet
 ├── [ ] 🧪 Closed beta: 50–100 selected users
 ├── [ ] 🧪 Light audit of smart contracts  
@@ -134,9 +134,9 @@ Jan-Mar 2026: Base Sepolia Beta
 └── [ ] 🧪 UX/UI refinements based on beta feedback
 ```
 
-### Fase 2: Mainnet Launch (Apr–Jun 2026) 🎊 GO-LIVE
+### Fase 2: Mainnet Launch (Jan–Mar 2026) 🎊 GO-LIVE
 ```
-Apr–Jun 2026: Base Mainnet Production
+Jan-Mar 2026: Base Mainnet Production
 ├── [ ] 🎯 Base Mainnet production deployment
 ├── [ ] 🎯 Public launch: Target 1K users / R$ 500K TVL
 ├── [ ] 🎯 Farcaster Mini App integration
@@ -145,9 +145,9 @@ Apr–Jun 2026: Base Mainnet Production
 └── [ ] 🎯 Partnerships with Base ecosystem players
 ```
 
-### Fase 3: Growth & Scale (Jul–Dec 2026) 📈 GROWTH
+### Fase 3: Growth & Scale (Apr–Jun 2026) 📈 GROWTH
 ```
-Jul–Dec 2026: Growth & Advanced Features
+Apr–Jun 2026: Growth & Advanced Features
 ├── [ ] 🚀 Mobile App (React Native companion)
 ├── [ ] 🚀 AI recommendations (OpenAI GPT-4)
 ├── [ ] 🚀 Social features: P2P support + marketplace
