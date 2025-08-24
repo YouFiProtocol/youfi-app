@@ -25,7 +25,7 @@
 
 ---
 
-## O que é o YouFi Protocol?
+## ⚡ O que é o YouFi Protocol?
 
 **Transformamos disciplina financeira em patrimônio verificável** através da primeira plataforma brasileira que combina:
 
@@ -35,7 +35,7 @@
 - **🔐 Zero-Knowledge** → Privacy-first com Self SDK (sem KYC)
 - **⚡ Gasless UX** → ERC-4337 + Paymaster na Base L2
 
-### Como Funciona?
+### 💡 Como Funciona?
 
 1. **📊 Defina suas metas** → Poupança, investimento, pagamento de dívidas
 2. **✅ Prove sua disciplina** → Cumpra objetivos mensalmente via PIX
@@ -44,13 +44,13 @@
 
 ---
 
-## Arquitetura Técnica
+## 🏗 Arquitetura Técnica
 
 <div align="center">
   <img src="https://github.com/YouFiProtocol/youfi-app/raw/main/docs/assets/architecture.png" alt="YouFi Architecture" width="100%"/>
 </div>
 
-### Stack Tecnológica
+### 📚 Stack Tecnológica
 
 | Componente | Tecnologia | Status | Descrição |
 |------------|------------|---------|-----------|
@@ -61,7 +61,7 @@
 | **💰 Payments** | USDC Pool + PIX | 📅 Planned | Rampa BRL → USDC |
 | **📜 Contracts** | Foundry + Solidity | 🚧 Dev | SBT + Registry + Treasury |
 
-### Core Features
+### 🎯 Core Features
 
 <table>
   <tr>
@@ -102,28 +102,30 @@
 
 ---
 
-## Roadmap 
+## 📈 Roadmap Realista & Cronológico
 
-> **📅 Projeto iniciado:** 3 de agosto de 2025
+> **📅 Projeto iniciado:** 3 de agosto de 2024
 
-# 🏗️ Phase 0: Setup & Foundation (Aug–Sep 2025) ✅ COMPLETED
-Aug–Sep 2025: Project Genesis 
-├── [x] ✅ Technical architecture definition
-├── [x] ✅ Initial setup: Next.js + TypeScript + Tailwind
-├── [x] ✅ Basic OnchainKit integration
-├── [x] ✅ Initial landing page
-└── [x] ✅ Repository + documentation structure
+### 🏗️ **Fase 0: Setup & Fundação** (Ago-Dez 2024) ✅ COMPLETO
+```
+Ago-Set 2025: Project Genesis 
+├── [x] ✅ Definição arquitetura técnica
+├── [x] ✅ Setup inicial: Next.js + TypeScript + Tailwind
+├── [x] ✅ Integração básica OnchainKit
+├── [x] ✅ Landing page inicial
+└── [x] ✅ Estrutura de repositórios e docs
 
-# 🔧 Phase 1: Core Infrastructure (Sep–Dec 2025) 🚧 IN PROGRESS
-Sep–Dec 2025: Base Infrastructure
+Set-Dez 2025: Core Infrastructure
 ├── [x] ✅ Base L2 network setup  
 ├── [x] ✅ Self SDK research & integration planning
 ├── [x] ✅ Smart contracts architecture design
 ├── [x] ✅ PIX integration research & partnerships
 └── [x] ✅ Team formation & project planning
+```
 
-# 🧪 Phase 2: Testnet & Beta (Jan–Mar 2026) 🎯 CRITICAL
-Jan–Mar 2026: Base Sepolia Beta
+### 🧪 **Fase 1: Testnet & Beta (Jan–Mar 2026) 🎯 CRITICAL
+```
+Jan-Mar 2026: Base Sepolia Beta
 ├── [ ] 🧪 Full deployment on Base Sepolia testnet
 ├── [ ] 🧪 Closed beta: 50–100 selected users
 ├── [ ] 🧪 Light audit of smart contracts  
@@ -131,40 +133,67 @@ Jan–Mar 2026: Base Sepolia Beta
 ├── [ ] 🧪 PIX testnet simulation + USDC mock
 └── [ ] 🧪 UX/UI refinements based on beta feedback
 
-# 🚀 Phase 3: Mainnet Launch (Apr–Jun 2026) 🎊 GO-LIVE
-Apr–Jun 2026: Base Mainnet Production
-├── [ ] 🎯 Base Mainnet production deployment
-├── [ ] 🎯 Public launch: Target 1K users / R$ 500K TVL
-├── [ ] 🎯 Farcaster Mini App integration
-├── [ ] 🎯 Full audit + security review
-├── [ ] 🎯 Discord community: 1,000+ members
-└── [ ] 🎯 Partnerships with Base ecosystem players
+Abr-Jun 2025: Core Features  
+├── [ ] 📋 PIX → USDC integration (webhooks)
+├── [ ] 📋 USDC Pool rewards system (~4.10% APY)
+├── [ ] 📋 SBT minting + reputation logic
+├── [ ] 📋 Anti-Sybil ML patterns
+└── [ ] 📋 PWA mobile-first optimization
+```
 
-# ⚡ Phase 4: Growth & Scale (Jul–Dec 2026) 📈 GROWTH
-Jul–Dec 2026: Growth & Advanced Features
+### 🧪 **Fase 2: Testnet & Beta** (Jul-Set 2025) 🎯 CRÍTICO
+```
+Jul-Set 2025: Base Sepolia Beta
+├── [ ] 🧪 Deploy completo Base Sepolia testnet
+├── [ ] 🧪 Beta fechado: 50-100 usuários selecionados
+├── [ ] 🧪 Auditoria leve smart contracts  
+├── [ ] 🧪 Stress testing: ZK proofs + gasless UX
+├── [ ] 🧪 PIX testnet simulation + USDC mock
+└── [ ] 🧪 UX/UI refinements baseado feedback beta
+```
+
+### 🚀 **Fase 3: Mainnet Launch** (Out-Dez 2025) 🎊 GO-LIVE
+```
+Out-Dez 2025: Base Mainnet Production
+├── [ ] 🎯 Deploy produção Base Mainnet
+├── [ ] 🎯 Launch público: Meta 1K usuários / R$ 500K TVL
+├── [ ] 🎯 Farcaster Mini App integration
+├── [ ] 🎯 Auditoria completa + security review
+├── [ ] 🎯 Discord community: 1000+ members
+└── [ ] 🎯 Partnerships: Base ecosystem players
+```
+
+### ⚡ **Fase 4: Tração & Escala** (Jan-Jun 2026) 📈 GROWTH
+```
+Jan-Jun 2026: Growth & Advanced Features
 ├── [ ] 🚀 Mobile App (React Native companion)
 ├── [ ] 🚀 AI recommendations (OpenAI GPT-4)
 ├── [ ] 🚀 Social features: P2P support + marketplace
 ├── [ ] 🚀 Advanced analytics & BI dashboard
-├── [ ] 🚀 Target: 10K+ MAU, $10M TVL
+├── [ ] 🚀 Meta: 10K+ MAU, $10M TVL
 └── [ ] 🚀 Yield strategies optimization
+```
 
-# 🌟 Phase 5: Strategic Expansion (2027) 🌍 SCALE
-2027: Scale & Strategic Partnerships
+### 🌟 **Fase 5: Expansão Estratégica** (Jul-Dez 2026) 🌍 SCALE
+```
+Jul-Dez 2026: Scale & Strategic Partnerships
 ├── [ ] 🌟 B2B white-label solutions
 ├── [ ] 🌟 Enterprise partnerships (banks/fintechs)
 ├── [ ] 🌟 Advanced ML anti-fraud systems
 ├── [ ] 🌟 Cross-chain bridges prep (Ethereum/Polygon)
 ├── [ ] 🌟 Token economics research
 └── [ ] 🌟 LATAM expansion strategy
+```
 
-# 🔮 Phase 6: Decentralization (2028+) 🏛️ DAO READY
-2028+: Governance & Multi-Chain (when team ready)
+### 🔮 **Fase 6: Descentralização** (2027+) 🏛️ DAO READY
+```
+2027+: Governança & Multi-Chain (quando team pronto)
 ├── [ ] 🔮 Multi-chain: Ethereum + Polygon + Wormhole
-├── [ ] 🔮 DAO governance token (technical maturity)
+├── [ ] 🔮 DAO governance token (maturidade técnica)
 ├── [ ] 🔮 Insurance protocols integration
 ├── [ ] 🔮 DeFi yield farming automation
 └── [ ] 🔮 Global expansion beyond LATAM
+```
 
 ---
 
