@@ -106,7 +106,7 @@
 
 > **📅 Projeto iniciado:** 3 de agosto de 2025
 
-###  ** Fase 0: Setup & Fundação** (Ago-Dez 2024) ✅ COMPLETO
+###  Fase 0: Setup & Fundação (Ago-Dez 2024) ✅ COMPLETO
 ```
 Ago-Set 2025: Project Genesis 
 ├── [x] ✅ Definição arquitetura técnica
@@ -123,7 +123,7 @@ Set-Dez 2025: Core Infrastructure
 └── [x] ✅ Team formation & project planning
 ```
 
-### ** Fase 1: Testnet & Beta (Jan–Mar 2026) 🎯 CRITICAL
+###  Fase 1: Testnet & Beta (Jan–Mar 2026) 🎯 CRITICAL
 ```
 Jan-Mar 2026: Base Sepolia Beta
 ├── [ ] 🧪 Full deployment on Base Sepolia testnet
@@ -134,7 +134,7 @@ Jan-Mar 2026: Base Sepolia Beta
 └── [ ] 🧪 UX/UI refinements based on beta feedback
 ```
 
-### ** Fase 2: Mainnet Launch (Apr–Jun 2026) 🎊 GO-LIVE
+### Fase 2: Mainnet Launch (Apr–Jun 2026) 🎊 GO-LIVE
 ```
 Apr–Jun 2026: Base Mainnet Production
 ├── [ ] 🎯 Base Mainnet production deployment
@@ -145,7 +145,7 @@ Apr–Jun 2026: Base Mainnet Production
 └── [ ] 🎯 Partnerships with Base ecosystem players
 ```
 
-### ** Fase 3: Growth & Scale (Jul–Dec 2026) 📈 GROWTH
+### Fase 3: Growth & Scale (Jul–Dec 2026) 📈 GROWTH
 ```
 Jul–Dec 2026: Growth & Advanced Features
 ├── [ ] 🚀 Mobile App (React Native companion)
@@ -156,7 +156,7 @@ Jul–Dec 2026: Growth & Advanced Features
 └── [ ] 🚀 Yield strategies optimization
 ```
 
-### ** Fase 4: Strategic Expansion (2027) 🌍 SCALE
+### Fase 4: Strategic Expansion (2027) 🌍 SCALE
 ```
 2027: Scale & Strategic Partnerships
 ├── [ ] 🌟 B2B white-label solutions
@@ -167,7 +167,7 @@ Jul–Dec 2026: Growth & Advanced Features
 └── [ ] 🌟 LATAM expansion strategy
 ```
 
-### ** Fase 5: Decentralization (2028+) 🏛️ DAO READY
+### Fase 5: Decentralization (2028+) 🏛️ DAO READY
 ```
 2028+: Governance & Multi-Chain (when team ready)
 ├── [ ] 🔮 Multi-chain: Ethereum + Polygon + Wormhole
