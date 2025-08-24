@@ -106,7 +106,7 @@
 
 > **📅 Projeto iniciado:** 3 de agosto de 2025
 
-🏗️ Phase 0: Setup & Foundation (Aug–Sep 2025) ✅ COMPLETED
+# 🏗️ Phase 0: Setup & Foundation (Aug–Sep 2025) ✅ COMPLETED
 Aug–Sep 2025: Project Genesis 
 ├── [x] ✅ Technical architecture definition
 ├── [x] ✅ Initial setup: Next.js + TypeScript + Tailwind
@@ -114,7 +114,7 @@ Aug–Sep 2025: Project Genesis
 ├── [x] ✅ Initial landing page
 └── [x] ✅ Repository + documentation structure
 
-🔧 Phase 1: Core Infrastructure (Sep–Dec 2025) 🚧 IN PROGRESS
+# 🔧 Phase 1: Core Infrastructure (Sep–Dec 2025) 🚧 IN PROGRESS
 Sep–Dec 2025: Base Infrastructure
 ├── [x] ✅ Base L2 network setup  
 ├── [x] ✅ Self SDK research & integration planning
@@ -122,7 +122,7 @@ Sep–Dec 2025: Base Infrastructure
 ├── [x] ✅ PIX integration research & partnerships
 └── [x] ✅ Team formation & project planning
 
-🧪 Phase 2: Testnet & Beta (Jan–Mar 2026) 🎯 CRITICAL
+# 🧪 Phase 2: Testnet & Beta (Jan–Mar 2026) 🎯 CRITICAL
 Jan–Mar 2026: Base Sepolia Beta
 ├── [ ] 🧪 Full deployment on Base Sepolia testnet
 ├── [ ] 🧪 Closed beta: 50–100 selected users
@@ -131,7 +131,7 @@ Jan–Mar 2026: Base Sepolia Beta
 ├── [ ] 🧪 PIX testnet simulation + USDC mock
 └── [ ] 🧪 UX/UI refinements based on beta feedback
 
-🚀 Phase 3: Mainnet Launch (Apr–Jun 2026) 🎊 GO-LIVE
+# 🚀 Phase 3: Mainnet Launch (Apr–Jun 2026) 🎊 GO-LIVE
 Apr–Jun 2026: Base Mainnet Production
 ├── [ ] 🎯 Base Mainnet production deployment
 ├── [ ] 🎯 Public launch: Target 1K users / R$ 500K TVL
@@ -140,7 +140,7 @@ Apr–Jun 2026: Base Mainnet Production
 ├── [ ] 🎯 Discord community: 1,000+ members
 └── [ ] 🎯 Partnerships with Base ecosystem players
 
-⚡ Phase 4: Growth & Scale (Jul–Dec 2026) 📈 GROWTH
+# ⚡ Phase 4: Growth & Scale (Jul–Dec 2026) 📈 GROWTH
 Jul–Dec 2026: Growth & Advanced Features
 ├── [ ] 🚀 Mobile App (React Native companion)
 ├── [ ] 🚀 AI recommendations (OpenAI GPT-4)
@@ -149,7 +149,7 @@ Jul–Dec 2026: Growth & Advanced Features
 ├── [ ] 🚀 Target: 10K+ MAU, $10M TVL
 └── [ ] 🚀 Yield strategies optimization
 
-🌟 Phase 5: Strategic Expansion (2027) 🌍 SCALE
+# 🌟 Phase 5: Strategic Expansion (2027) 🌍 SCALE
 2027: Scale & Strategic Partnerships
 ├── [ ] 🌟 B2B white-label solutions
 ├── [ ] 🌟 Enterprise partnerships (banks/fintechs)
@@ -158,7 +158,7 @@ Jul–Dec 2026: Growth & Advanced Features
 ├── [ ] 🌟 Token economics research
 └── [ ] 🌟 LATAM expansion strategy
 
-🔮 Phase 6: Decentralization (2028+) 🏛️ DAO READY
+# 🔮 Phase 6: Decentralization (2028+) 🏛️ DAO READY
 2028+: Governance & Multi-Chain (when team ready)
 ├── [ ] 🔮 Multi-chain: Ethereum + Polygon + Wormhole
 ├── [ ] 🔮 DAO governance token (technical maturity)
