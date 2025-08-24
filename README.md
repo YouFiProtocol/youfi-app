@@ -1,5 +1,4 @@
-<div align="center">
-  <img src="https://github.com/YouFiProtocol/youfi-app/raw/main/public/logo-hero.png" alt="YouFi Protocol" width="240" height="80"/>
+
   
   # YouFi Protocol 🇧🇷
   
@@ -26,7 +25,7 @@
 
 ---
 
-## ⚡ O que é o YouFi Protocol?
+## O que é o YouFi Protocol?
 
 **Transformamos disciplina financeira em patrimônio verificável** através da primeira plataforma brasileira que combina:
 
@@ -36,7 +35,7 @@
 - **🔐 Zero-Knowledge** → Privacy-first com Self SDK (sem KYC)
 - **⚡ Gasless UX** → ERC-4337 + Paymaster na Base L2
 
-### 💡 Como Funciona?
+### Como Funciona?
 
 1. **📊 Defina suas metas** → Poupança, investimento, pagamento de dívidas
 2. **✅ Prove sua disciplina** → Cumpra objetivos mensalmente via PIX
@@ -45,13 +44,13 @@
 
 ---
 
-## 🏗 Arquitetura Técnica
+## Arquitetura Técnica
 
 <div align="center">
   <img src="https://github.com/YouFiProtocol/youfi-app/raw/main/docs/assets/architecture.png" alt="YouFi Architecture" width="100%"/>
 </div>
 
-### 📚 Stack Tecnológica
+### Stack Tecnológica
 
 | Componente | Tecnologia | Status | Descrição |
 |------------|------------|---------|-----------|
@@ -62,7 +61,7 @@
 | **💰 Payments** | USDC Pool + PIX | 📅 Planned | Rampa BRL → USDC |
 | **📜 Contracts** | Foundry + Solidity | 🚧 Dev | SBT + Registry + Treasury |
 
-### 🎯 Core Features
+### Core Features
 
 <table>
   <tr>
@@ -103,20 +102,20 @@
 
 ---
 
-## 📈 Roadmap Realista & Cronológico
+## Roadmap 
 
-> **📅 Projeto iniciado:** 3 de agosto de 2024
+> **📅 Projeto iniciado:** 3 de agosto de 2025
 
-### 🏗️ **Fase 0: Setup & Fundação** (Ago-Dez 2024) ✅ COMPLETO
+### 🏗️ **Fase 0: Setup & Fundação** (Ago-Dez 2025) ✅ COMPLETO
 ```
-Ago-Set 2024: Project Genesis 
+Ago-Set 2025: Project Genesis 
 ├── [x] ✅ Definição arquitetura técnica
 ├── [x] ✅ Setup inicial: Next.js + TypeScript + Tailwind
 ├── [x] ✅ Integração básica OnchainKit
 ├── [x] ✅ Landing page inicial
 └── [x] ✅ Estrutura de repositórios e docs
 
-Out-Dez 2024: Base Infrastructure
+Out-Dez 2025: Base Infrastructure
 ├── [x] ✅ Base L2 network setup  
 ├── [x] ✅ Self SDK research & integration planning
 ├── [x] ✅ Smart contracts architecture design
@@ -124,16 +123,16 @@ Out-Dez 2024: Base Infrastructure
 └── [x] ✅ Team formation & project planning
 ```
 
-### 🔧 **Fase 1: Core Development** (Jan-Jun 2025) 🚧 EM PROGRESSO
+### 🔧 **Fase 1: Core Development** (Jan-Jun 2026) 🚧 EM PROGRESSO
 ```
-Jan-Mar 2025: Smart Infrastructure
+Jan-Mar 2026: Smart Infrastructure
 ├── [ ] 🚧 Self SDK ZK integration (uniqueHuman + age≥18)  
 ├── [ ] 🚧 Smart Contracts: SBT + Registry + Treasury
 ├── [ ] 🚧 ERC-4337 Smart Wallets + Paymaster
 ├── [ ] 🚧 Foundry testing suite completo
 └── [ ] 🚧 Base Sepolia deployment + testing
 
-Abr-Jun 2025: Core Features  
+Abr-Jun 2026: Core Features  
 ├── [ ] 📋 PIX → USDC integration (webhooks)
 ├── [ ] 📋 USDC Pool rewards system (~4.10% APY)
 ├── [ ] 📋 SBT minting + reputation logic
